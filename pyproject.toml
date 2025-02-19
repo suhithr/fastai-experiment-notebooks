@@ -1,0 +1,23 @@
+[project]
+name = "fastai-experiment-nbs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "diffusers>=0.32.2",
+    "fastcore>=1.7.29",
+    "fastdownload>=0.0.7",
+    "ipywidgets>=8.1.5",
+    "matplotlib>=3.10.0",
+    "scipy>=1.15.2",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "transformers>=4.49.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "uv>=0.6.0",
+]
